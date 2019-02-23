@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "views/*": ["src/views/*"],
+      "styles/*": ["src/styles/*"],
+      "routes/*": ["src/routes/*"],
+      "api/*": ["src/api/*"],
+      "models/*": ["src/models/*"]
+    },
+    "outDir": "/dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es2017", "dom"],
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ]
+}
